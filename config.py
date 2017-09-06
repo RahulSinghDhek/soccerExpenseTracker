@@ -10,4 +10,4 @@ SQLALCHEMY_DATABASE_URI = 'sqlite:///soccer.db'
 SQLALCHEMY_POOL_RECYCLE = 3600
 
 WTF_CSRF_ENABLED = True
-SECRET_KEY = 'dsaf0897sfdg45sfdgfdsaqzdf98sdf0a'
+SECRET_KEY = 'key'
