@@ -13,10 +13,10 @@
 
     {{ form1.hidden_tag() }} 
     
-    {{ macros.render_field(form1.name, placeholder='Enter text to submit to the DB', type='name', label_visible=true) }}
-    {{ macros.render_field(form1.amount, placeholder='Enter text to submit to the DB', type='amount', label_visible=true) }}
-    {{ macros.render_field(form1.month, placeholder='Enter text to submit to the DB', type='month', label_visible=true) }}
-    {{ macros.render_field(form1.year, placeholder='Enter text to submit to the DB', type='year', label_visible=true) }}	
+    {{ macros.render_field(form1.name, placeholder='Enter text to submit to the DB', type='name', label_visible=false) }}
+    {{ macros.render_field(form1.amount, placeholder='Enter text to submit to the DB', type='amount', label_visible=false) }}
+    {{ macros.render_field(form1.month, placeholder='Enter text to submit to the DB', type='month', label_visible=false) }}
+    {{ macros.render_field(form1.year, placeholder='Enter text to submit to the DB', type='year', label_visible=false) }}	
     
     <div align="center"><button type="submit" class="btn btn-primary">Submit</button></p></div>
 

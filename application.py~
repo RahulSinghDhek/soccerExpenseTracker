@@ -39,7 +39,7 @@ def index():
             num_return = int(form2.numRetrieve.data)
             query_db = Player.query.order_by(Player.id.desc()).limit(num_return)
             for q in query_db:
-                print(q.name+q.amount+q.month+q.year)
+                print(q.name)
             db.session.close()
         except:
             db.session.rollback()

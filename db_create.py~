@@ -1,5 +1,5 @@
 from application import db
-from application.models import Player
+from application.models import Data
 
 db.create_all()
 
